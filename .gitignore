@@ -1,0 +1,11 @@
+# Compiled class file
+*.class
+
+# Eclipse specific git ignore
+.project
+.classpath
+.settings/
+
+# virtual machine crash logs
+hs_err_pid*
+/.metadata/
