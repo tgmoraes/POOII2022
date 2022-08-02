@@ -1,18 +1,21 @@
 # Programação Orientada a Objetos II - 2022/02 - 
 Repositório dos códigos utilizados em **Programação Orientada a Objetos II do curso superior em tecnologia ADS (Análise e Desenvolvimento de Sistemas) do IFRS - Campus Osorio**.
+
 # Conteúdos:
+
 ## aula 1
 Revisão de POO: 
 * exercício avaliado feito no final da disciplina de POOI: classe Jogo com uma outra classe que persiste jogos em arquivo texto
 Agradecimentos especiais ao Luan!!
 
-<!--
 ## aula 2
 Genéricos no Java:
 * métodos genéricos
 * classes genéricas
 * tipos limitados
 * wildcards
+
+<!--
 
 ## aula 3
 Lambdas no Java:
