@@ -1,6 +1,6 @@
 package listaLigada;
 
-public class ListaEncadeada<T> implements Iterable<T>{
+public class ListaEncadeada<T> {
 	private int tamanho;
 	private No inicio;
 	private No fim;

@@ -1,0 +1,12 @@
+1;Bruce Banner;MASCULINO
+2;Miles Morales;MASCULINO
+3;Peter parker;MASCULINO
+4;Tony Stark;MASCULINO
+5;Natasha Romanoff;FEMININO
+6;Bruce Wayne;MASCULINO
+7;Clark Kent;MASCULINO
+8;Wanda Maximoff;FEMININO
+9;Carol Denvers;FEMININO
+10;Thor;MASCULINO
+11;Conde de Monte Cristo;MASCULINO
+12;Steve Rogers;MASCULINO
