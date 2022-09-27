@@ -16,21 +16,11 @@ import java.util.stream.Stream;
 
 public class TesteStreams {
 
-	// 3.3 - Exercício: por fim, crie um Stream que processe o arquivo da seguinte
+	// Exercício: por fim, crie um Stream que processe o arquivo da seguinte
 	// maneira:
 	// retorne uma List<Pessoa> com as pessoas com nomes compostos por ao menos
 	// 2 palavras e do sexo masculino. Essa lista deve estar com os nomes em
 	// maiúsculo.
-//	public static List<Pessoa> exercicio(Path arq) throws IOException {
-//		return Files.lines(arq) // stram de Strings
-//				.map(l -> {
-//					String[] vet = l.split(";");
-//					vet[1] = vet[1].toUpperCase();
-//					return Pessoa.fromLine(vet);
-//				}) // stream de Pessoas
-//				.filter(p -> p.getNome().split(" ").length >= 2) // stream de pessoas com nome composto
-//				.filter(p -> p.getSexo() == Sexo.MASCULINO).collect(Collectors.toList());
-//	}
 
 	public static void exemploStreamInt() {
 		List<Integer> nums = Arrays.asList(2, 10, 8, 9, 5, 6, 23);
