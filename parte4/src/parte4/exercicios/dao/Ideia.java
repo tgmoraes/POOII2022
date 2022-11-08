@@ -14,7 +14,8 @@ public class Ideia {
 	private String descricao;
 	private String titulo;
 	private Urgencia urgencia;
-
+	
+	
 	public Ideia( String descricao, String titulo, Urgencia urgencia) {
 		this.descricao = descricao;
 		this.titulo = titulo;
@@ -24,6 +25,7 @@ public class Ideia {
 	public Ideia(int id, String descricao, String titulo, Urgencia urgencia) {
 		this(descricao, titulo, urgencia);
 		this.id = id;
+		
 	}
 
 	public Integer getId() {
@@ -63,4 +65,6 @@ public class Ideia {
 	public String toString() {
 		return "("+this.id+") - "+this.titulo+": "+this.descricao+ "[prioridade: "+this.urgencia+"]"; 
 	}
+	
+	
 }

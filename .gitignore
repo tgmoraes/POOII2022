@@ -9,3 +9,6 @@
 # virtual machine crash logs
 hs_err_pid*
 /.metadata/
+
+# files maven project
+target/

@@ -1,4 +1,4 @@
-package br.edu.ifrs.osorio.parte5TesteFXmaven;
+package br.edu.ifrs.osorio.parte5TesteFXmaven.model;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -11,7 +11,8 @@ public class Ideia {
 	private String descricao;
 	private String titulo;
 	private Urgencia urgencia;
-
+	//private String codigo;
+	
 	public Ideia( String descricao, String titulo, Urgencia urgencia) {
 		this.descricao = descricao;
 		this.titulo = titulo;
@@ -21,6 +22,7 @@ public class Ideia {
 	public Ideia(int id, String descricao, String titulo, Urgencia urgencia) {
 		this(descricao, titulo, urgencia);
 		this.id = id;
+	//	this.codigo = "cod:"+id;
 	}
 
 	public Integer getId() {
@@ -60,4 +62,10 @@ public class Ideia {
 	public String toString() {
 		return "("+this.id+") - "+this.titulo+": "+this.descricao+ "[prioridade: "+this.urgencia+"]"; 
 	}
+	public String getCodigo() {
+		return "cod:"+id;
+	}
+//	public void setCodigo(String cod) {
+//		this.codigo = cod;
+//	}
 }

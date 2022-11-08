@@ -1,4 +1,4 @@
-package br.edu.ifrs.osorio.parte5TesteFXmaven;
+package br.edu.ifrs.osorio.parte5TesteFXmaven.persistencia;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

@@ -1,5 +1,7 @@
-package br.edu.ifrs.osorio.parte5TesteFXmaven;
+package br.edu.ifrs.osorio.parte5TesteFXmaven.controllers;
 
+import br.edu.ifrs.osorio.parte5TesteFXmaven.model.Ideia;
+import br.edu.ifrs.osorio.parte5TesteFXmaven.persistencia.IdeiaDAO;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
